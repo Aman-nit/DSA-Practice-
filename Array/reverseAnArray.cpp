@@ -2,11 +2,13 @@
 #include <vector>
 using namespace std;
 
-void minAndMaxInArr(int arr[], int n, int s, int e)
+void reverseAnArray(int arr[], int n)
 {
-    while (s < e)
+    int s = 0;
+    while (s < n)
     {
-        int mid = s + e / 2;
+        int temp = 0;
+        int arr[s] = temp;
     }
 }
 
